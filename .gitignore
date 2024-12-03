@@ -1,1 +1,120 @@
-.vscode
+# General files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.log
+*.DS_Store
+Thumbs.db
+
+# Erlang
+*.beam
+*.dump
+*.rel
+*.boot
+*.script
+*.ez
+rebar.lock
+_rebar/
+.rebar/
+
+# Elixir
+*.beam
+*.dump
+*.rel
+*.boot
+*.script
+*.ez
+_mix/
+mix.lock
+*.coverdata
+
+# Rust
+/target/
+/Cargo.lock
+**/*.rs.bk
+
+# Haskell
+dist/
+/dist-newstyle/
+/.stack-work/
+/.cabal-sandbox/
+/cabal.sandbox.config
+*.hi
+*.o
+*.hs.bk
+*.haddock
+
+# OCaml
+_build/
+/*.cm[iox]
+*.o
+*.annot
+*.cmt
+*.cmti
+*.profdata
+*.coverage
+*.merlin
+*.byte
+*.native
+*.exe
+.opam
+*.pp.ml
+*.pp.mli
+*.cmo
+*.cma
+*.cmi
+*.cmx
+*.cmxa
+*.a
+*.so
+
+# C
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.obj
+*.pdb
+*.lib
+*.elf
+*.map
+
+# Editor/IDE Specific
+.vscode/
+*.code-workspace
+
+# Build Artifacts and Dependencies
+_build/
+out/
+bin/
+lib/
+logs/
+tmp/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Others
+*.lock
+*.bak
+*.swp
+*.tmp
+*.temp
+*.orig
+*.rej
+*.log
+*.pyc
+*.pyo
+__pycache__/
+
