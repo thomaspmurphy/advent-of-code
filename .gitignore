@@ -92,7 +92,6 @@ _build/
 _build/
 out/
 bin/
-lib/
 logs/
 tmp/
 node_modules/
